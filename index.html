@@ -23,6 +23,46 @@
                 <div class="weather">Sunny</div>
                 <div class="hi-low">13°c / 16°c</div>
             </div>
+             <div class="cards">
+                <!-- Red Card for Air Quality -->
+                <div class="card red">
+                    <p class="tip">Air Quality</p>
+                    <p class="second-text">AQI: 150 (Unhealthy)</p>
+                    <ul>
+                        <li>PM2.5: 90 µg/m³</li>
+                        <li>PM10: 120 µg/m³</li>
+                        <li>CO: 0.8 mg/m³</li>
+                        <li>Ozone: 180 µg/m³</li>
+                    </ul>
+                </div>
+            
+                <!-- Blue Card for Temperature 5 Times in a Day -->
+                <div class="card blue">
+                    <p class="tip">Temperature (Today)</p>
+                    <ul>
+                        <li>6:00 AM: 20°C</li>
+                        <li>9:00 AM: 23°C</li>
+                        <li>12:00 PM: 28°C</li>
+                        <li>3:00 PM: 30°C</li>
+                        <li>6:00 PM: 25°C</li>
+                    </ul>
+                </div>
+            
+                <!-- Green Card for 5 Days Temperature -->
+                <div class="card green">
+                    <p class="tip">5-Day Forecast</p>
+                    <ul>
+                        <li>Monday: 22°C - 30°C</li>
+                        <li>Tuesday: 21°C - 29°C</li>
+                        <li>Wednesday: 20°C - 28°C</li>
+                        <li>Thursday: 23°C - 31°C</li>
+                        <li>Friday: 24°C - 32°C</li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="map">
+                <img src="map.jpg" width="300px" height="200px">
+            </div>
         </main>
     </div>
     <script src="main.js"></script>
